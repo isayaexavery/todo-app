@@ -12,7 +12,7 @@ const [notes, setNote] = useState([]);
 
   function addNote(newNote){
 
-    if(newNote.title.length == 0 ){
+    if(newNote.title.length === 0 ){
       alert('Title Can not be empty');
       return;
     }
